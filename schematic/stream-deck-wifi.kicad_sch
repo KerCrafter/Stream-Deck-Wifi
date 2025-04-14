@@ -1,0 +1,2293 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "30740ad8-92c5-49a6-9e38-817784ba178c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:USB_OTG"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_OTG"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB mini/micro connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_OTG_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_OTG_1_1"
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "stream-deck-wifi:Bat_Hat_Pi_Zero"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BAT_HAT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bat_Hat_Pi_Zero_0_1"
+				(rectangle
+					(start -16.51 -1.27)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Bat_Hat_Pi_Zero_1_1"
+				(pin power_in line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "BAT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -19.05 -3.81 0)
+					(length 2.54)
+					(name "PI_PW+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -19.05 -6.35 0)
+					(length 2.54)
+					(name "PI_PW-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "USB_CHG_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "USB_CHG_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "stream-deck-wifi:Pi_Zero"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pi_Zero_0_1"
+				(rectangle
+					(start 11.43 -5.08)
+					(end -12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pi_Zero_1_1"
+				(pin power_out line
+					(at -15.24 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 2.54)
+					(name "USB_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -16.51 0)
+					(length 2.54)
+					(name "VUSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 113.03 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130682a4-7dee-4152-a80c-b7de64e4929d")
+	)
+	(junction
+		(at 113.03 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a59c27b-6747-495c-8ee5-605e4b19e5dd")
+	)
+	(junction
+		(at 86.36 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e7ce370-16a7-42ce-957b-7698e3d808cc")
+	)
+	(junction
+		(at 190.5 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb57c3c-98b2-4f15-b55f-6a4eb292dd27")
+	)
+	(junction
+		(at 109.22 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "623ead83-1e21-4861-b7a7-6534ab164c58")
+	)
+	(junction
+		(at 113.03 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641861da-daf9-4fb8-baaa-37080e33454a")
+	)
+	(junction
+		(at 82.55 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecbd8d8e-0465-4f90-8747-cce241b5d773")
+	)
+	(wire
+		(pts
+			(xy 182.88 87.63) (xy 182.88 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "11d6c137-10f7-4a87-b329-8ae75751f944")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "13fc024d-3c9c-4113-9289-875cc6a6cd8d")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "1a4dde83-68e7-40a5-a8a7-4495d53a8c63")
+	)
+	(wire
+		(pts
+			(xy 176.53 115.57) (xy 193.04 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "1c4ef158-7b92-4ce9-8337-89d9e0e24eb9")
+	)
+	(wire
+		(pts
+			(xy 200.66 123.19) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1dc1b46d-4882-4c1b-b732-f814e03b11df")
+	)
+	(wire
+		(pts
+			(xy 116.84 120.65) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "23722f77-ad30-4316-ad58-633645f40511")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "2caef1d7-5ece-434f-9a1b-105ef3a73605")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2e07e675-0f45-4d30-baa5-aacc698c970e")
+	)
+	(wire
+		(pts
+			(xy 171.45 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "3054014f-b0c8-4f5f-a1f1-efdf18685562")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "32232082-a384-41cc-ad9c-e63c34c924e1")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "33ec81d3-5dad-462c-910e-dda900000747")
+	)
+	(wire
+		(pts
+			(xy 72.39 123.19) (xy 72.39 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "39f764aa-06a4-49a7-92aa-89d348375b7d")
+	)
+	(wire
+		(pts
+			(xy 82.55 130.81) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3ba80069-088f-47e9-a13b-333e5d2966b5")
+	)
+	(wire
+		(pts
+			(xy 113.03 69.85) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "49fde808-4a34-4f82-9f41-2888c22fb4bc")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5117c3cc-cf63-48f7-8505-acc087de2e47")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "52485d0a-4871-4cf1-80e2-857bf92dd2a8")
+	)
+	(wire
+		(pts
+			(xy 177.8 62.23) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "5382b218-bfb7-4203-97cf-5d1678c0cc0a")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5b41f100-83cc-4606-addd-1d114e8ea412")
+	)
+	(wire
+		(pts
+			(xy 177.8 40.64) (xy 86.36 40.64)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "5c2e48c9-2934-4033-9ded-4ba51367fb1d")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "66a7f70c-11a9-40e8-b2e2-bef77703cab9")
+	)
+	(wire
+		(pts
+			(xy 151.13 44.45) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bf726f-e067-4f9e-bf90-bb128ad36d8d")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "715ac495-443c-4e24-b50a-700605b99ae8")
+	)
+	(wire
+		(pts
+			(xy 177.8 40.64) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "78d0a5df-90a4-422c-bb9c-a32693368b7b")
+	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 193.04 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "79de4c96-58e5-447f-86aa-fd74e8c6c28d")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "7b46a386-bced-4b01-b9b6-a116b8f17e11")
+	)
+	(wire
+		(pts
+			(xy 72.39 130.81) (xy 82.55 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7e8ddf42-5183-41f1-b950-ef266eb4044e")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 113.03 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8951ab1f-0dc6-42b9-aae1-c54ca3808967")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "8d7351d6-3d86-4b98-8938-b6e9e528bad2")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 151.13 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8efeeb8f-0f56-4c78-8290-640f83550740")
+	)
+	(wire
+		(pts
+			(xy 80.01 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "8fe6c028-74ab-4c15-96aa-97cc249f5709")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "9095dcdd-78b6-49aa-807d-fead27534f70")
+	)
+	(wire
+		(pts
+			(xy 151.13 44.45) (xy 160.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c676bf-dda1-4f32-93bf-2f8c12ca9992")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "914908f9-fd28-4a34-8207-70ff4177b93c")
+	)
+	(wire
+		(pts
+			(xy 176.53 105.41) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "935aeba8-073d-4733-a371-bdd802e08170")
+	)
+	(wire
+		(pts
+			(xy 80.01 115.57) (xy 87.63 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "9ae507bd-6744-43dd-b311-a0a516bde25c")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "9c11ef97-3587-4852-8d0b-d68b70cff14c")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "a2cfa490-90aa-43f2-b1c0-26fe6ba71d5c")
+	)
+	(wire
+		(pts
+			(xy 160.02 44.45) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fc6c07-c8ca-4fde-b74a-44bf7d95501f")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 193.04 118.11)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a72ab278-e967-4729-a5de-4a8f35ca8d80")
+	)
+	(wire
+		(pts
+			(xy 151.13 58.42) (xy 160.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99c46c4-911a-4403-81b5-381e3cf58689")
+	)
+	(wire
+		(pts
+			(xy 87.63 125.73) (xy 161.29 125.73)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "aa2f3ceb-8f78-4b45-a1cb-387ee540358c")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "b3afe8e2-bf82-4014-90f2-89919240cb6c")
+	)
+	(wire
+		(pts
+			(xy 160.02 58.42) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e00216-3870-4d4a-897b-19eeca0202a5")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 176.53 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "c3250b6f-1980-48b2-add7-04d55a9cba70")
+	)
+	(wire
+		(pts
+			(xy 87.63 125.73) (xy 87.63 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 47 175 184 1)
+		)
+		(uuid "c88beae5-dd09-43ad-9cdc-eca8aff00d07")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d472ca5f-b5c2-4045-be17-9e3f15baebae")
+	)
+	(wire
+		(pts
+			(xy 152.4 90.17) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "dacc3624-79b9-4e4a-93b9-714d25984e51")
+	)
+	(wire
+		(pts
+			(xy 86.36 40.64) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "dc5885bc-700f-45c3-8adf-8b4567e04f5c")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "de2b8de6-16f1-4c53-ab8f-1f4dc3ff8e13")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "e000bf94-28e9-46f7-923f-6a411c1bca05")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "e1e91aa9-aa44-4a9c-99ac-0cf38fe80450")
+	)
+	(wire
+		(pts
+			(xy 113.03 130.81) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e1eca7ce-d1cb-4e4b-9d72-0747b2967047")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 193.04 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 126 210 104 1)
+		)
+		(uuid "e87b3561-0e4f-447a-b54d-f0f4b6f41dea")
+	)
+	(wire
+		(pts
+			(xy 113.03 69.85) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ea9970c0-8357-41f9-b6ba-fce6117f82b3")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "f0c8a22c-b762-4dea-9f8b-59831837c96f")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 82.55 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f1a0a9a1-fe38-43ca-9728-902a0b24fd7e")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 97 107 1)
+		)
+		(uuid "f421ec7d-510a-4ce6-afdc-461c860c9323")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f632882e-27ef-44b7-961f-b71d82d99e9f")
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 166.37 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a1cab60-046d-45d2-baa5-f88cd0cc3a1d")
+		(property "Reference" "SW2"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3333fef1-3081-4693-bd20-3ec8eeda865d")
+		)
+		(pin "1"
+			(uuid "6435ad81-63cb-4597-b1df-018c3e1ca441")
+		)
+		(pin "3"
+			(uuid "4fb3b985-b47e-49f5-b8b2-f7c9ff53e00e")
+		)
+		(instances
+			(project "stream-deck-wifi"
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_OTG")
+		(at 72.39 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3225f6fd-cdd8-4f51-b2b2-da2e03130106")
+		(property "Reference" "J1"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_PC"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB mini/micro connector"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db5251da-b573-4c45-abb3-78b2d9dd78a8")
+		)
+		(pin "4"
+			(uuid "7a02550d-5f26-4cf4-971e-31e243994076")
+		)
+		(pin "6"
+			(uuid "feff33d2-27f9-4049-beea-ea40d0c25f0a")
+		)
+		(pin "2"
+			(uuid "a63db52f-62c6-4219-9aa4-8510775530dd")
+		)
+		(pin "5"
+			(uuid "e5f49a1a-fe31-45e8-894f-f904c864e414")
+		)
+		(pin "3"
+			(uuid "73af543d-1442-413f-aa95-d842d0760efd")
+		)
+		(instances
+			(project ""
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stream-deck-wifi:Bat_Hat_Pi_Zero")
+		(at 138.43 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c29ff82-ae9d-447f-8310-ac38f0d70014")
+		(property "Reference" "BAT_HAT1"
+			(at 135.382 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 135.255 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "22e8d66e-8b85-430d-aba7-03bf87487b23")
+		)
+		(pin ""
+			(uuid "c7c8c0bf-713d-4e2b-9932-2339ff897152")
+		)
+		(pin ""
+			(uuid "8f7b0d5e-56a0-4712-933e-82a859540adf")
+		)
+		(pin ""
+			(uuid "6d69b564-71e7-409a-ad56-d7822afea235")
+		)
+		(pin ""
+			(uuid "890a75c5-34d2-4708-9930-193451da55b0")
+		)
+		(pin ""
+			(uuid "d9b34870-de29-428f-b8d3-0e4da70a6c4a")
+		)
+		(instances
+			(project ""
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "BAT_HAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 160.02 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b915d27-d231-45ca-83bd-a3056c675a4f")
+		(property "Reference" "BT1"
+			(at 163.83 50.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 163.83 52.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3a50034-65d5-4b4a-bdc9-4bd17187f058")
+		)
+		(pin "2"
+			(uuid "2b58caf9-9e0e-4f6d-bb4b-81e34cf4a4a4")
+		)
+		(instances
+			(project ""
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 166.37 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9774eb28-1724-4f50-9033-53a2b1422d9d")
+		(property "Reference" "SW3"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9168d27f-baab-41e1-b70b-933d1de6695f")
+		)
+		(pin "1"
+			(uuid "d0055b5d-d30d-4166-8ae5-8be534105bc2")
+		)
+		(pin "3"
+			(uuid "29164193-26ef-4976-9041-dbab50236fc6")
+		)
+		(instances
+			(project "stream-deck-wifi"
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stream-deck-wifi:Pi_Zero")
+		(at 135.89 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd20cda-a3bf-49a3-b79f-d44dda619c80")
+		(property "Reference" "PiZero"
+			(at 132.842 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "aa84b92a-0032-43a9-a49f-0331a3e05c73")
+		)
+		(pin ""
+			(uuid "c46b7bf5-8f5b-4b58-9883-8d7185affeb7")
+		)
+		(pin ""
+			(uuid "37b9e546-ab85-44db-8e10-7187b7c5d43b")
+		)
+		(pin ""
+			(uuid "b2eb6427-73cf-4127-a305-736b144c46d5")
+		)
+		(instances
+			(project ""
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "PiZero")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 166.37 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa9d829a-aec8-4a73-a1cd-281b7fccc6d3")
+		(property "Reference" "SW1"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19fba1c4-00bd-4673-9c4b-7c266a0616be")
+		)
+		(pin "1"
+			(uuid "ffdf82b0-7311-42a4-b5b0-eddb7708fe99")
+		)
+		(pin "3"
+			(uuid "9f3e4126-8974-4ef6-b483-12cd1bdefc02")
+		)
+		(instances
+			(project ""
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_OTG")
+		(at 200.66 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3500963-77f8-4cd4-aa93-ec961d864fde")
+		(property "Reference" "J2"
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_STREAM_DECK"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB mini/micro connector"
+			(at 200.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5430052-72a9-4447-9957-8979697001b3")
+		)
+		(pin "4"
+			(uuid "9a984473-50b5-4f82-a436-2e131a262a41")
+		)
+		(pin "6"
+			(uuid "263f3eee-98ac-47d0-bc25-4df429b725d7")
+		)
+		(pin "2"
+			(uuid "ac34ba6d-74ee-4f4c-91ac-1fe57d3eea81")
+		)
+		(pin "5"
+			(uuid "a97aa8b6-18c8-4d11-a2a8-10b51d73d6b6")
+		)
+		(pin "3"
+			(uuid "924c53c5-9e2b-4a53-8101-8c01ae759d4b")
+		)
+		(instances
+			(project "stream-deck-wifi"
+				(path "/30740ad8-92c5-49a6-9e38-817784ba178c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
