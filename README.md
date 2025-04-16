@@ -11,5 +11,6 @@ add Wifi Mode for the Stream Deck
 ## Autonomy Tests
 
 | battery | started time | stopped time |
+| - | - | - |
 | 1000mAh | Todo | Todo |
 
